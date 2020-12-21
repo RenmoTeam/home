@@ -95,9 +95,9 @@ body {
   opacity: 0.6;
 }
 
-.hero-text a {
-  color: white;
-  background: #008000;
+.send-btn {
+    color: white;
+    background: #008000;
   font-weight: 900;
   font-size: var(--text);
   padding: 0.8rem 1rem;
@@ -105,7 +105,36 @@ body {
   display: block;
   text-decoration: none;
   transition: opacity 250ms linear;
+/*
+  padding: 5px;
+  cursor: pointer;
+  color: white;
+  background: #008000;
+  font-size: var(--text);
+  display: block;
+  vertical-align: middle;
+*/
 }
+
+.text-box{
+     vertical-align: middle;
+     margin: 5px 10px 5px 0;
+     padding: 10px;
+     width: 300px;
+     background-color: #fff;
+     border: 1px solid #008000;
+}
+
+.text-box:focus{
+    outline: #008000;
+}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
 
 .hero-text a:hover {
   opacity: 0.8;

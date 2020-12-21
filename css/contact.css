@@ -9,7 +9,7 @@
 
 body{
   min-height: 100vh;
-  background: url(/img/contact.jpg) no-repeat;
+  background: url(../img/contact.jpg) no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;

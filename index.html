@@ -6,16 +6,15 @@
     <link rel="icon" href="img/favicon.jpg"/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type ="text/css" href="css/default.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
   </head>
   <body>
     <section class="hero-section">
       <nav class="navbar">
         <h2>Renmo</h2>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="#aboutUs">About Us</a></li>
+          <li><a href="#contactUs">Contact Us</a></li>
         </ul>
       </nav>
       <div class="hero-text">
@@ -25,17 +24,55 @@
           <input type="email" name="email" class="text-box" placeholder="Your Email" required>
           <input type="submit" name="submit" class="send-btn" value="Join Our WaitList">
         </form>
+        <div class="skills">
+                <li>No Stress</li>
+                <li>Get More Value</li>
+                <li>Quick Process</li>
+        </div>
       </div>
     </section>
-<!--
+    <hr>
+    <Section id="aboutUs">
+           <div class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                Renmo Homes is the No.1 platform that allows tenants to pay MONTHLY rent for their homes. You rent and stay as long as you want, but you only pay monthly!  Just tell us about your newly-found house/apartment or choose from the variety of homes on our platform. We then ensure that you pay your rent monthly. No kidding! 
+                We believe everyone deserves a decent home. And that should NOT cause you to empty your savings or give you a 'headache' because of the initial bulk payment.  We are excited to partner with you to make decent home living stress-free, convenient, and fast. 
+            </p>
+            <li>Join us today to experience the 'Renmo lifestyle.'</li>
+        </div>
+    </div>
+    </Section>
+    <hr>
+    <Section id="contactUs">
+        <div class="contact-section">
+      <div class="contact-info">
+        <div><i class="fa fa-map-marker"></i>Accra, Ghana</div>
+        <div><i class="fa fa-envelope"></i>info@renmohomes.com</div>
+        <div><i class="fa fa-phone"></i>+1-919-987-0386</div>
+        <div><i class="fa fa-globe"></i>Contact us 24/7</div>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="myform" action=”mailto:info@renmohomes.com” method=”POST” enctype=”multipart/form-data”>
+          <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+          <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+          <textarea name="message" id="" cols="30" rows="5" placeholder="Your Message" required></textarea>
+          <input type="submit" name="submit" class="send-btn" value="Send">
+        </form>
+      </div>
+    </div>
+    </Section> 
+    <hr> 
     <footer class="footer-distributed">
         <div class="footer-right">
           <a href="#"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>
           <a href="#"><i class="fa fa-linkedin"></i></a>
         </div>
-    </footer>
--->
+          <p>&copy; 2020 Renmohomes · All rights reserved</p>
+      </footer>
   </body>
 
 </html>

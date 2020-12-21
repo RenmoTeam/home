@@ -198,6 +198,12 @@ body {
   text-decoration: none;
 }
 
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .skills li:before {
 	content: "•";
     color: green;

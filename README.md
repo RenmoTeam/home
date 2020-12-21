@@ -1,3 +1,1 @@
-# home
-
-Renmo homes 
+Renmo Landing Home Page

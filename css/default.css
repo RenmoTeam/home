@@ -256,6 +256,19 @@ body {
 .contact-info i{
   margin-right: 25px;
   font-size: 25px;
+  color: #fff;
+}
+
+.contact-info i.a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact-info i.a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .contact-form{

@@ -18,14 +18,14 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 <div class="container-fluid">
-    <a class="navbar-brand" href="#">Renmo Homes</a>
+    <a class="navbar-brand" href="#" onclick="location.reload(true);">Renmo Homes</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#home">Home</a>
             </li>
              <li class="nav-item">
                 <a class="nav-link" href="#value">Services</a>
@@ -63,12 +63,19 @@
             <div class="carousel-caption">
                 <h1 class="display-2">Pay your rent monthly!</h1>
                 <h3>We are revolutionizing the way rents are paid in Ghana.</h3>
+                
+                <form class="input-group mb-3">
+                  <input type="email" class="form-control"                   id="inputEmail" placeholder="Enter email address..." required>
+                <button type="submit" class="btn btn-primary mx-auto">Join Our WaitList</button>
+                </form>
+<!--
                 <div class="input-group mb-3">
                  <input type="text" class="form-control" placeholder="Email" required>
                   <div class="input-group-append">
                     <button class="btn btn-primary btn-lg" type="button">Join Our WaitList</button>
                   </div>
                 </div>  
+-->
             </div>
         </div>
 </Section>
@@ -313,6 +320,7 @@
     </div>
 </footer>
 
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
 <script src="main.js">
 </script>
 

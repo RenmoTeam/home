@@ -43,6 +43,7 @@ var firebaseConfig = {
             evt.preventDefault();
             firebasePush(inputEmail);
             //shows alert if everything went well.
-            return alert('Your Email has successfully been saved to Renmo Homes Database');
+            form.reset();
+            return alert('Your email has successfully been saved to Renmo Homes Database');
         })
     }

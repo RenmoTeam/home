@@ -41,6 +41,7 @@
 </div>
 </nav>
 
+<!--home page -->
 <Section id="home">
         <div class="carousel-item active">
             <img src="img/home_image.jpg" alt="">
@@ -48,9 +49,9 @@
                 <h1 class="display-2">Pay your rent monthly!</h1>
                 <h3>We are revolutionizing the way rents are paid in Ghana.</h3>
                 
-                <form class="input-group mb-3">
+                <form class="input-group mb-3" id="waitlistform">
                   <input type="email" class="form-control"                   id="inputEmail" placeholder="Enter email address..." required>
-                <button type="submit" class="btn btn-primary mx-auto">Join Our WaitList</button>
+                <button type="submit" class="btn btn-primary mx-auto" id="submit-button">Join Our WaitList</button>
                 </form>
 <!--
                 <div class="input-group mb-3">
@@ -73,11 +74,10 @@
         </div>
         <hr>
         <div class="col-12">
-            <p class="lead">As part of our mission of helping Ghanaians to pay rents monthly we also provide these added benefits to our users.</p>
+            <p class="lead">As part of our mission of helping Ghanaians to pay rents monthly, we also provide these added benefits to our users.</p>
         </div>
     </div>
 </div>
-
 <!--- Three Column Section -->
 <div class="container-fluid padding">
     <div class="row text-center padding">
@@ -100,6 +100,7 @@
     <hr class="my-4">
 </div>
 </Section>
+
 <!--- Two Column Section -->
 <div class="container-fluid padding" id="aboutUs">
     <div class="row padding">
@@ -112,7 +113,7 @@
                 We believe everyone deserves a decent home. And that should NOT cause you to empty your savings or give you a 'headache' because of the initial bulk payment.  We are excited to partner with you to make decent home living stress-free, convenient, and fast. 
             </p>
             <br>
-            <a href="#" class="btn btn-primary">Join Us</a> today to experience the 'Renmo lifestyle.'
+            <a href="#home" class="btn btn-primary">Join Us</a> today to experience the 'Renmo lifestyle.'
         </div>
         <div class="col-lg-6">
             <img src="img/desk.png" class="img-fluid" alt="">
@@ -280,7 +281,7 @@
 </footer>
 
 <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-<script src="main.js">
+<script src="firebase.js">
 </script>
 
 </body>

@@ -1,15 +1,15 @@
 'use strict';
 
 //grab a form
-const form = document.querySelector('.input-group');
+var form = document.querySelector('.input-group');
 
 //grab an input
-const inputEmail = form.querySelector('#inputEmail');
+var inputEmail = form.querySelector('#inputEmail');
 
 
 //config your firebase push
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
- const firebaseConfig = {
+ var firebaseConfig = {
   apiKey: "AIzaSyDO9ofhUfrZe4tdIgS0tkreo-TCsUW-1LY",
   authDomain: "renmohomes.firebaseapp.com",
   databaseURL: "https://renmohomes.firebaseio.com",

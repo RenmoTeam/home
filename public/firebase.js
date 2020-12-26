@@ -1,15 +1,13 @@
-'use strict';
-
 //grab a form
-const form = document.querySelector('.input-group');
+var form = document.querySelector('#waitlistform');
 
 //grab an input
-const inputEmail = form.querySelector('#inputEmail');
+var inputEmail = form.querySelector('#inputEmail');
 
 
 //config your firebase push
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: "AIzaSyDO9ofhUfrZe4tdIgS0tkreo-TCsUW-1LY",
   authDomain: "renmohomes.firebaseapp.com",
   databaseURL: "https://renmohomes.firebaseio.com",
@@ -27,7 +25,7 @@ const firebaseConfig = {
 
         //prevents from braking
         if (!firebase.apps.length) {
-            firebase.initializeApp(config);
+            firebase.initializeApp(firebaseConfig);
         }
 
         //push itself
@@ -44,8 +42,7 @@ const firebaseConfig = {
         form.addEventListener('submit', function (evt) {
             evt.preventDefault();
             firebasePush(inputEmail);
-
             //shows alert if everything went well.
-            return alert('Data Successfully Sent to Realtime Database');
+            return alert('Your Email has successfully been saved to Renmo Homes Database');
         })
     }

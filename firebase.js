@@ -9,7 +9,7 @@ const inputEmail = form.querySelector('#inputEmail');
 
 //config your firebase push
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+ const firebaseConfig = {
   apiKey: "AIzaSyDO9ofhUfrZe4tdIgS0tkreo-TCsUW-1LY",
   authDomain: "renmohomes.firebaseapp.com",
   databaseURL: "https://renmohomes.firebaseio.com",

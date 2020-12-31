@@ -47,6 +47,10 @@ html,body{
     padding-bottom: 1rem;
 }
 
+.form-control{
+    width: 100%
+}
+
 .btn-primary {
     background-color: green;
     border: 1px solid green;
